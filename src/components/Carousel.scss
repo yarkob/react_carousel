@@ -1,1 +1,16 @@
 // style go here
+.Carousel {
+  border: #000;
+  align-items: center;
+}
+
+.Carousel__list {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 0;
+  margin: 10px auto;
+  border: 1px solid #000;
+}
